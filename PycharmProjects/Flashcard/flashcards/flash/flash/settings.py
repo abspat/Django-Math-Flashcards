@@ -1,8 +1,8 @@
 
 
 import os
-import django_heroku
 import dj_database_url
+import django_heroku
 from decouple import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -41,7 +41,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleWare',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 
 ]
 
